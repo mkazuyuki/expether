@@ -29,7 +29,7 @@ In addition, XBOX is configured as storage for business continuity by route swit
  
 # Product Versions on the verification
 
-- ExpEther Manager <font color=red>**???**</font>
+- ExpEther Manager version E06
 - EXPRESSCLUSTER for Linux 3.3.5-1
 - Red Hat Enterprise Linux Server 7.2
 
