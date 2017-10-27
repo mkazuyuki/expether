@@ -27,7 +27,7 @@ dev=/dev/nvme0n1p1
 mnt=/mnt
 
 #--------
-echo "[I] failover-ssd START ENTER"
+echo "[I] START ENTER"
 
 # Resolving Server and group_id for HBA
 ip a | grep $node1/
@@ -72,6 +72,5 @@ echo "Execution [ mnt $dev $mnt ]"
 mount $dev $mnt
 echo "	return [$?]"
 
-logger -t failover-ssd EXIT
-echo "[I] failover-ssd START EXIT"
+echo "[I] START EXIT [$?]"
 exit 0

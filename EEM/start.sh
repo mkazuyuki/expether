@@ -1,5 +1,5 @@
 #!/bin/sh
-echo START
+echo "[I] START ENTER"
 
 # Checking existing EEM
 cd /opt/nec/eem/eemcli
@@ -24,4 +24,4 @@ for ((i=0; i < $max; i++)); do
 	sleep 1
 done
 
-echo "EXIT [$?]"
+echo "[I] START EXIT [$?]"

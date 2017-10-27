@@ -1,4 +1,4 @@
 #!/bin/sh
-echo STOP
+echo "[I] STOP ENTER"
 /opt/nec/eem/tomcat/bin/shutdown.sh
-echo "EXIT [$?]"
+echo "[I] STOP EXIT [$?]"
