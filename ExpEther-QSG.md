@@ -9,6 +9,23 @@ This text descrives how to configure EXPRESSCLUSTER to make ExpEther Manager (EE
 EEM must be the only one instance in the broadcast domain. EC will protect this and improve availability.
 In addition, XBOX is configured as storage for business continuity by route switching (changing group id).
 
+	+--------+    +-------+    +--------+    +-------+
+	| GBE    +----+ eesv1 +----+ 40G    +----+ XBOX  |
+	| Switch |    |   EEM |    | Swithc |    |  SSD1 |
+	|        |    |   ECX |    |        |    |  SSD2 |
+	|        |    +-------+    |        |    +-------+
+	|        |                 |        |
+	|        |    +-------+    |        |
+	|        +----+ eesv2 +----+        |
+	|        |    |  (EEM)|    |        |
+	|        |    |   ECX |    |        |
+	|        |    +-------+    |        |
+	|        |                 |        |
+	|        |    +-------+    |        |
+	|        +----+ eesv3 +----+        |
+	|        |    |  (EEM)|    |        |
+	|        |    |   ECX |    |        |
+	+--------+    +-------+    +--------+
  
 # Product Versions on the verification
 
