@@ -51,8 +51,7 @@ ID for SSD
 
 3. Install EE Manager 
 
-	Edit configuration file of eemcli.py ( /opt/nec/eem/eemcli/eemcli.conf ) to make it access to FIP where EE Manager runs.
-	On all servers, change the line in the file from
+	On all servers, edit configuration file for eemcli.py ( /opt/nec/eem/eemcli/eemcli.conf ) to make it access to FIP where EE Manager runs. For this purpose, change the line in the file from
 
 		server_ip=127.0.0.1
 
