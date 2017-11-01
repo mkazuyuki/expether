@@ -198,4 +198,4 @@ Right click [failover-ssd] > [Properties]
 
 ## Apply the configuration
 - Click [File] > [Apply Configuration]
-- Reboot all servers by "clpstdn -r" command and wait for the completion of starting of the cluster *EE-Cluster**
+- Reboot all servers by "clpstdn -r" command and wait for the completion of starting of the *EE-Cluster*
