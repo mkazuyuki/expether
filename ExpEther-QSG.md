@@ -11,7 +11,7 @@ In addition, XBOX is configured as storage for business continuity by route swit
 
 	+--------+    +-------+    +--------+    +-------+
 	| GBE    +----+ eesv1 +----+ 40G    +----+ XBOX  |
-	| Switch |    |   EEM |    | Swithc |    |  SSD1 |
+	| Switch |    |   EEM |    | Switch |    |  SSD1 |
 	|        |    |   ECX |    |        |    |  SSD2 |
 	|        |    +-------+    |        |    +-------+
 	|        |                 |        |
