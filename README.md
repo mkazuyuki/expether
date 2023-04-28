@@ -1,3 +1,9 @@
+# 2023.04.26
+
+ESXi + NVIDIA vGPU で GVM の Live Migration は[可能](https://docs.vmware.com/jp/VMware-vSphere/7.0/com.vmware.vsphere.vcenterhost.doc/GUID-8FE6A0DA-49E9-472B-815B-D630CF2014AD.html)
+
+
+
 # 2023.04.21
 
 ## 目下可能と思われる方式
@@ -11,12 +17,18 @@
 7. VM 起動前にスクリプトで GPU を付ける。
 8. VM を起動する
 
-SR-IOV 対応 GPU は[ある](https://open-iov.org/index.php/GPU_Support)。
+SR-IOV で GPU 仮想化を目指す人々は[いる](https://open-iov.org/index.php/GPU_Support)。
 
 SR-IOV で仮想化した NIC を持つ ECX 入り VM の vMotion は ESXi6 当時でも可能だった。
 
-WS2022 で SR-IOV で仮想化したデバイスを持つ VM の LM が可能と思われる情報だが、[これ](https://learn.microsoft.com/ja-jp/windows-hardware/drivers/network/sr-iov-vf-failover-and-live-migration-support)は NIC を前提にしたものだった。
+WS2022 で SR-IOV で仮想化したデバイスを持つ VM の LM が可能と思われる情報だが、[これ](https://learn.microsoft.com/ja-jp/windows-hardware/drivers/network/sr-iov-vf-failover-and-live-migration-support)は NIC を前提にしたものだった。  
 では GPU を前提にした情報は無いか? > 今のところ見つからない。
+
+GPU 仮想化コミュニティーに Open-IOV がある。
+- https://open-iov.org/index.php/GPU_Support
+- https://open-iov.org/index.php/Hypervisor_Support
+- https://open-iov.org/index.php/Virtual_I/O_Internals
+- https://open-iov.org/index.php/Glossary
 
 # 2023.04.19
 
