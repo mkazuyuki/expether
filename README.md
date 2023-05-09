@@ -1,7 +1,10 @@
+# 2023.05.09
+
+Windows 10,11 では GPU-PV (Para Virtualization) と GPU-P (Partitioning) とで GVM を[実現できる](https://qiita.com/Hyper-W/items/e189790fd4534d9d51ad)。Officially supported or not is unknown.
+
 # 2023.04.26
 
 ESXi + NVIDIA vGPU で GVM の Live Migration は[可能](https://docs.vmware.com/jp/VMware-vSphere/7.0/com.vmware.vsphere.vcenterhost.doc/GUID-8FE6A0DA-49E9-472B-815B-D630CF2014AD.html)
-
 
 
 # 2023.04.21
