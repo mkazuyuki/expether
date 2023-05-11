@@ -106,3 +106,8 @@ DC (March 2009) [[13]].
 Michael R. Hines, Umesh Deshpande, and Kartik Gopalan. Post-Copy Live Migration of Virtual Machines (2009) [[14]].
 
 [14]:[https://kartikgopalan.github.io/publications/hines09postcopy_osr.pdf]
+
+QEMU > Developer Information > Internal Subsystem Information > [Migration](https://www.qemu.org/docs/master/devel/migration.html)
+
+[VirGL](https://docs.mesa3d.org/drivers/virgl/)
+
