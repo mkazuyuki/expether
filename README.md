@@ -1,3 +1,7 @@
+# 2023.05.19
+
+MSも [Virtio-GPU](https://linux.srad.jp/story/23/05/16/2059220/) はお気に入り
+
 # 2023.05.09
 
 Windows 10,11 では GPU-PV (Para Virtualization) と GPU-P (Partitioning) とで GVM を[実現できる](https://qiita.com/Hyper-W/items/e189790fd4534d9d51ad)。Officially supported or not is unknown.
