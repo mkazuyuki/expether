@@ -114,9 +114,9 @@ On the client PC,
 - [Next]
 - [Next]
 - Select start.sh then click [Replace]
-- Select [*EEM/start.sh*]
+- Select `EEM/start.sh`
 - Select stop.sh then click [Replace]
-- Select [*EEM/stop.sh*]
+- Select `EEM/stop.sh`
 - [Finish]
 
 ## Apply the configuration
@@ -144,7 +144,7 @@ Procedure for configuring EE Manager Clsuter have completed here.
 - [Next]
 - [Next]
 - Select start.sh then click [Replace]
-- Select [*EEM/start.sh*]
+- Select `XBOX/start.sh`
 - Select start.sh then click [Edit] > Edit below portion to match to actual parameters.
 
 		####
@@ -175,7 +175,7 @@ Procedure for configuring EE Manager Clsuter have completed here.
 		mnt=/mnt
 
 - Select stop.sh then click [Replace]
-- Select [*EEM/stop.sh*]
+- Select `XBOX/stop.sh`
 - Select stop.sh then click [Edit] > Edit below portion to match to actual parameters.
 
 		####
