@@ -141,4 +141,4 @@ On the client PC,
 ## Apply the configuration
 
 - Click [File] > [Apply Configuration]
-- Reboot all servers by `clpstdn -r` command and wait for the completion of starting of starting the cluster *failover-GVM1*
+- Reboot all servers by `clpstdn -r` command and wait for the completion of starting the cluster *failover-GVM1*
