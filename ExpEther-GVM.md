@@ -18,6 +18,7 @@ Starting `GVM1` on `sv1`
 [^2]: I/O box of ExpEther
 [^3]: ExpEther Manager
 
+```
     +--------+    +---------+    +--------+    +-------+
     | GBE    +----+ sv1     +----+ 80G    +----+ XBOX  |
     | Switch |    |  GVM1   |    | Switch |    |  GPU1 |
@@ -29,6 +30,7 @@ Starting `GVM1` on `sv1`
     |        |    |  (GVM1) |    |        |
     |        |    |   ECX   |    |        |
     +--------+    +---------+    +--------+
+```
 
 ## Product Versions on the verification
 
